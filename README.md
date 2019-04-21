@@ -3,20 +3,14 @@
 ## Usage
 `npm install vue-particles-use --save-dev`
 
-## main.js file<br>
-<<<<<<< HEAD
+## main.js file
 ```
 import Vue from 'vue'
 import VueParticlesUse from 'vue-particles-use'
 Vue.use(VueParticlesUse)
 ```
-=======
-`import Vue from 'vue'`<br>
-`import VueParticlesUse from 'vue-particles-use'`<br>
-`Vue.use(VueParticlesUse)`<br>
->>>>>>> 52ac5dad56d72b24c5ffc52b0eda1f53b2103111
 
-## a simple example<br>
+## a simple example
 ```
  <template>
     <div id="app">
@@ -44,8 +38,4 @@ Vue.use(VueParticlesUse)
       </vue-particles-use>
     </div>
  </template>
-<<<<<<< HEAD
  ```
-=======
- ```
->>>>>>> 52ac5dad56d72b24c5ffc52b0eda1f53b2103111
