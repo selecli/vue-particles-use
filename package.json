@@ -2,6 +2,8 @@
   "name": "vue-particles-use",
   "version": "1.0.1",
   "author": "Richardson",
+  "homepage": "https://github.com/selecli/vue-particles-use.git",
+  "description": "A particle components with Vue.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "start": "npm run serve",

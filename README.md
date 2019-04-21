@@ -1,29 +1,39 @@
-# world
+# vue-particles-use
 
-## Project setup
-```
-npm install
-```
+# Usage
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+npm install vue-particles --save-dev
 
-### Compiles and minifies for production
-```
-npm run build
-```
+# main.js file
 
-### Run your tests
-```
-npm run test
-```
+import Vue from 'vue'
+import VueParticlesUse from 'vue-particles-use'
+Vue.use(VueParticlesUse)
 
-### Lints and fixes files
-```
-npm run lint
-```
+# a simple example
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+<template>
+    <div id="app">
+      <vue-particles-use></vue-particles-use>
+    </div>
+ </template>
+
+#full examples
+
+<template>
+    <div id="app">
+      <vue-particles-use
+        :number="30"
+        :area="2000"
+        color="#ff0000"
+        shape="star"
+        :lineWidth="5"
+        lineColor="#ff0000"
+        :opacity="0.5"
+        :speed="20"
+        hoverMode="grab"
+        clickMode="bubble"
+      >
+      </vue-particles-use>
+    </div>
+ </template>
