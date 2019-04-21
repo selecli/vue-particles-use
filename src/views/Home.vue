@@ -1,7 +1,6 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <vue-particles-use color="#ff0000"></vue-particles-use> 
   </div>
 </template>
 

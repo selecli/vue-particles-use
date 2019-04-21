@@ -1,12 +1,15 @@
 {
-  "name": "world",
-  "version": "0.1.0",
-  "private": true,
+  "name": "vue-particles-use",
+  "version": "1.0.1",
+  "author": "Richardson",
   "scripts": {
     "serve": "vue-cli-service serve",
+    "start": "npm run serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "dist": "vue-cli-service build --target lib --name vue-particles-use src/lib/index.js"
   },
+  "main": "dist/vue-particles-use.umd.min.js",
   "dependencies": {
     "core-js": "^2.6.5",
     "vue": "^2.6.10",
@@ -19,10 +22,16 @@
     "@vue/cli-service": "^3.6.0",
     "@vue/eslint-config-prettier": "^4.0.1",
     "babel-eslint": "^10.0.1",
+    "dachali1002": "^1.0.0",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
     "less": "^3.0.4",
     "less-loader": "^4.1.0",
-    "vue-template-compiler": "^2.5.21"
+    "particles.js": "^2.0.0",
+    "vue-particles": "^1.0.9",
+    "vue-particles-use": "^0.1.0",
+    "vue-template-compiler": "^2.5.21",
+    "world100": "^0.1.0",
+    "world1000": "^0.1.0"
   }
 }
