@@ -1,25 +1,26 @@
 # vue-particles-use
 
-# Usage
+## Usage
+`npm install vue-particles-use --save-dev`
 
-npm install vue-particles --save-dev
-
-# main.js file
-
+## main.js file<br>
+```
 import Vue from 'vue'
 import VueParticlesUse from 'vue-particles-use'
 Vue.use(VueParticlesUse)
+```
 
-# a simple example
-
-<template>
+## a simple example<br>
+```
+ <template>
     <div id="app">
-      <vue-particles-use></vue-particles-use>
+       <vue-particles-use></vue-particles-use>
     </div>
  </template>
+``` 
 
 #full examples
-
+```
 <template>
     <div id="app">
       <vue-particles-use
@@ -37,3 +38,4 @@ Vue.use(VueParticlesUse)
       </vue-particles-use>
     </div>
  </template>
+ ```
