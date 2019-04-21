@@ -19,7 +19,7 @@ Vue.use(VueParticlesUse)
  </template>
 ``` 
 
-#full examples
+## full examples
 ```
 <template>
     <div id="app">
