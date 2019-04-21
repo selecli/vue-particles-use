@@ -6,9 +6,9 @@ npm install vue-particles --save-dev
 
 # main.js file
 
-import Vue from 'vue'
-import VueParticlesUse from 'vue-particles-use'
-Vue.use(VueParticlesUse)
+#import Vue from 'vue'
+#import VueParticlesUse from 'vue-particles-use'
+#Vue.use(VueParticlesUse)
 
 # a simple example
 
