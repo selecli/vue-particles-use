@@ -3,7 +3,7 @@
 ![](./src/assets/bg.png)
 
 ## Usage
-`npm install vue-particles-use --save-dev`
+`npm install vue-particles-use --save`
 
 ## main.js file
 ```
